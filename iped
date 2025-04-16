@@ -30,8 +30,8 @@ fi
 # Cria a pasta de saída se não existir
 mkdir -p "$OUTPUT_FOLDER"
 
-# Cria uma lista de arquivos .zip, .E01 e .IDO
-FILES=$(find "$FOLDER" -type f \( -name "*.zip" -o -name "*.E01" -o -name "*.IDO" \))
+# Cria uma lista de arquivos .zip, .E01 e .ISO
+FILES=$(find "$FOLDER" -type f \( -name "*.zip" -o -name "*.E01" -o -name "*.ISO" \))
 
 # Verifica se existem arquivos
 if [ -z "$FILES" ]; then
